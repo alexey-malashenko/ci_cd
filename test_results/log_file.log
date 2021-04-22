@@ -1,0 +1,102 @@
+2021-04-15 02:48:33.818834 Database connection successful
+2021-04-15 02:48:33.818834 Test cases folder detected
+2021-04-15 02:48:33.819857 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\countries.json JSON was successfully opened.
+2021-04-15 02:48:33.819857 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\employees.json JSON was successfully opened.
+2021-04-15 02:48:33.819857 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\smoke_tests.json JSON was successfully opened.
+2021-04-15 02:48:33.822849 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\countries.json JSON file structure was successfully checked.
+2021-04-15 02:48:33.823845 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\employees.json JSON file structure was successfully checked.
+2021-04-15 02:48:33.825815 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\smoke_tests.json JSON file structure was successfully checked.
+2021-04-15 02:48:33.825815 Testing with "countries.json" have been started
+2021-04-15 02:48:33.826841 Test case "Employees. Check doublicates" have been started
+2021-04-15 02:48:33.826841 Test case "Employees. Check doublicates" have been completed
+2021-04-15 02:48:33.826841 Test case "Employees. Employee_id - check BR" have been started
+2021-04-15 02:48:33.826841 Test case "Employees. Employee_id - check BR" have been completed
+2021-04-15 02:48:33.826841 Test case "Employees. Employee_id check PK - Nulls" have been started
+2021-04-15 02:48:33.827810 Test case "Employees. Employee_id check PK - Nulls" have been completed
+2021-04-15 02:48:33.827810 Test case "Employees. Salary - check BR - Min Salary" have been started
+2021-04-15 02:48:33.829834 Test case "Employees. Salary - check BR - Min Salary" have been completed
+2021-04-15 02:48:33.829834 Test case "Employees. Salary - check BR - Max Salary" have been started
+2021-04-15 02:48:33.829834 Test case "Employees. Salary - check BR - Max Salary" have been completed
+2021-04-15 02:48:33.829834 Test case "Employees.  job_id check FK" have been started
+2021-04-15 02:48:33.829834 Test case "Employees.  job_id check FK" have been completed
+2021-04-15 02:48:33.829834 Test case "Employees. MINUS hr.department" have been started
+2021-04-15 02:48:33.829834 Test case "Employees. MINUS hr.department" have been completed
+2021-04-15 02:48:33.829834 Testing with "countries.json" have been completed
+2021-04-15 02:48:33.829834 Testing with "employees.json" have been started
+2021-04-15 02:48:33.830802 Test case "Countries. Country_id. Check PK. Duplicates" have been started
+2021-04-15 02:48:33.830802 Test case "Countries. Country_id. Check PK. Duplicates" have been completed
+2021-04-15 02:48:33.830802 Test case "Countries. Country_id. Check PK. Nulls" have been started
+2021-04-15 02:48:33.830802 Test case "Countries. Country_id. Check PK. Nulls" have been completed
+2021-04-15 02:48:33.830802 Test case "Countries. Country_name. Max Length" have been started
+2021-04-15 02:48:33.830802 Test case "Countries. Country_name. Max Length" have been completed
+2021-04-15 02:48:33.830802 Test case "Countries. Country_name. Min Length" have been started
+2021-04-15 02:48:33.831799 Test case "Countries. Country_name. Min Length" have been completed
+2021-04-15 02:48:33.831799 Testing with "employees.json" have been completed
+2021-04-15 02:48:33.831799 Testing with "smoke_tests.json" have been started
+2021-04-15 02:48:33.831799 Test case "SMOKE TEST. Countries table. Check count." have been started
+2021-04-15 02:48:33.831799 Test case "SMOKE TEST. Countries table. Check count." have been completed
+2021-04-15 02:48:33.831799 Test case "SMOKE TEST. Departments table. Check count." have been started
+2021-04-15 02:48:33.831799 Test case "SMOKE TEST. Departments table. Check count." have been completed
+2021-04-15 02:48:33.831799 Test case "SMOKE TEST. Dependents table. Check count." have been started
+2021-04-15 02:48:33.832797 Test case "SMOKE TEST. Dependents table. Check count." have been completed
+2021-04-15 02:48:33.832797 Test case "SMOKE TEST. Employees table. Check count." have been started
+2021-04-15 02:48:33.832797 Test case "SMOKE TEST. Employees table. Check count." have been completed
+2021-04-15 02:48:33.832797 Test case "SMOKE TEST. Jobs table. Check count." have been started
+2021-04-15 02:48:33.833184 Test case "SMOKE TEST. Jobs table. Check count." have been completed
+2021-04-15 02:48:33.833184 Test case "SMOKE TEST. Locations table. Check count." have been started
+2021-04-15 02:48:33.833376 Test case "SMOKE TEST. Locations table. Check count." have been completed
+2021-04-15 02:48:33.833376 Test case "SMOKE TEST. Regions table. Check count." have been started
+2021-04-15 02:48:33.833568 Test case "SMOKE TEST. Regions table. Check count." have been completed
+2021-04-15 02:48:33.833568 Testing with "smoke_tests.json" have been completed
+2021-04-15 02:48:33.833568 Testing completed
+2021-04-22 23:20:26.268294 Database connection successful
+2021-04-22 23:20:26.268294 Test cases folder detected
+2021-04-22 23:20:26.269326 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\countries.json JSON was successfully opened.
+2021-04-22 23:20:26.270324 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\employees.json JSON was successfully opened.
+2021-04-22 23:20:26.271324 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\smoke_tests.json JSON was successfully opened.
+2021-04-22 23:20:26.273324 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\countries.json JSON file structure was successfully checked.
+2021-04-22 23:20:26.275310 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\employees.json JSON file structure was successfully checked.
+2021-04-22 23:20:26.278293 C:\Users\alexey_malashenko\OneDrive - EPAM\Course DQE intermed lvl\Test Automation for Data Quality Engineers\Python\test_cases\smoke_tests.json JSON file structure was successfully checked.
+2021-04-22 23:20:26.279295 Testing with "countries.json" have been started
+2021-04-22 23:20:26.279295 Test case "Employees. Check doublicates" have been started
+2021-04-22 23:20:26.286294 Test case "Employees. Check doublicates" have been completed
+2021-04-22 23:20:26.286294 Test case "Employees. Employee_id - check BR" have been started
+2021-04-22 23:20:26.289292 Test case "Employees. Employee_id - check BR" have been completed
+2021-04-22 23:20:26.289292 Test case "Employees. Employee_id check PK - Nulls" have been started
+2021-04-22 23:20:26.289292 Test case "Employees. Employee_id check PK - Nulls" have been completed
+2021-04-22 23:20:26.289292 Test case "Employees. Salary - check BR - Min Salary" have been started
+2021-04-22 23:20:26.295420 Test case "Employees. Salary - check BR - Min Salary" have been completed
+2021-04-22 23:20:26.295420 Test case "Employees. Salary - check BR - Max Salary" have been started
+2021-04-22 23:20:26.296296 Test case "Employees. Salary - check BR - Max Salary" have been completed
+2021-04-22 23:20:26.296296 Test case "Employees.  job_id check FK" have been started
+2021-04-22 23:20:26.299331 Test case "Employees.  job_id check FK" have been completed
+2021-04-22 23:20:26.299331 Test case "Employees. MINUS hr.department" have been started
+2021-04-22 23:20:26.311328 Test case "Employees. MINUS hr.department" have been completed
+2021-04-22 23:20:26.311328 Testing with "countries.json" have been completed
+2021-04-22 23:20:26.311328 Testing with "employees.json" have been started
+2021-04-22 23:20:26.311328 Test case "Countries. Country_id. Check PK. Duplicates" have been started
+2021-04-22 23:20:26.312329 Test case "Countries. Country_id. Check PK. Duplicates" have been completed
+2021-04-22 23:20:26.312329 Test case "Countries. Country_id. Check PK. Nulls" have been started
+2021-04-22 23:20:26.314332 Test case "Countries. Country_id. Check PK. Nulls" have been completed
+2021-04-22 23:20:26.314332 Test case "Countries. Country_name. Max Length" have been started
+2021-04-22 23:20:26.316329 Test case "Countries. Country_name. Max Length" have been completed
+2021-04-22 23:20:26.316329 Test case "Countries. Country_name. Min Length" have been started
+2021-04-22 23:20:26.317325 Test case "Countries. Country_name. Min Length" have been completed
+2021-04-22 23:20:26.317325 Testing with "employees.json" have been completed
+2021-04-22 23:20:26.317325 Testing with "smoke_tests.json" have been started
+2021-04-22 23:20:26.318294 Test case "SMOKE TEST. Countries table. Check count." have been started
+2021-04-22 23:20:26.319331 Test case "SMOKE TEST. Countries table. Check count." have been completed
+2021-04-22 23:20:26.319331 Test case "SMOKE TEST. Departments table. Check count." have been started
+2021-04-22 23:20:26.319331 Test case "SMOKE TEST. Departments table. Check count." have been completed
+2021-04-22 23:20:26.319331 Test case "SMOKE TEST. Dependents table. Check count." have been started
+2021-04-22 23:20:26.321294 Test case "SMOKE TEST. Dependents table. Check count." have been completed
+2021-04-22 23:20:26.321294 Test case "SMOKE TEST. Employees table. Check count." have been started
+2021-04-22 23:20:26.322295 Test case "SMOKE TEST. Employees table. Check count." have been completed
+2021-04-22 23:20:26.322295 Test case "SMOKE TEST. Jobs table. Check count." have been started
+2021-04-22 23:20:26.322295 Test case "SMOKE TEST. Jobs table. Check count." have been completed
+2021-04-22 23:20:26.322295 Test case "SMOKE TEST. Locations table. Check count." have been started
+2021-04-22 23:20:26.323326 Test case "SMOKE TEST. Locations table. Check count." have been completed
+2021-04-22 23:20:26.323326 Test case "SMOKE TEST. Regions table. Check count." have been started
+2021-04-22 23:20:26.324326 Test case "SMOKE TEST. Regions table. Check count." have been completed
+2021-04-22 23:20:26.324326 Testing with "smoke_tests.json" have been completed
+2021-04-22 23:20:26.324326 Testing completed

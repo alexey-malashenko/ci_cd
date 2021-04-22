@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "Employees. Check doublicates",
+      "query": "select count(*) FROM (Select employee_id, first_name, last_name, email, phone_number, hire_date, job_id, salary, manager_id, department_id FROM hr.employees GROUP BY employee_id, first_name, last_name, email, phone_number, hire_date, job_id, salary, manager_id, department_id HAVING count(*) > 1) as test",
+      "expected": 0
+    },
+    {
+      "name": "Employees. Employee_id - check BR",
+      "query": "Select count(*) FROM hr.employees where employee_id not between 100 and 1000",
+      "expected": 0
+    },
+    {
+      "name": "Employees. Employee_id check PK - Nulls",
+      "query": "Select count(*) FROM hr.employees where employee_id is NULL",
+      "expected": 0
+    },
+    {
+      "name": "Employees. Salary - check BR - Min Salary",
+      "query": "Select min(salary) FROM hr.employees",
+      "expected": 2500
+    },
+    {
+      "name": "Employees. Salary - check BR - Max Salary",
+      "query": "Select max(salary) FROM hr.employees",
+      "expected": 24000
+    },
+    {
+      "name": "Employees.  job_id check FK",
+      "query": "select count(*) count_wrong_fk FROM (Select s.job_id FROM hr.employees s left join hr.jobs t ON t.job_id = s.job_id where t.job_id is null) as t",
+      "expected": 0
+    },
+    {
+      "name": "Employees. MINUS hr.department",
+      "query": "select count(*) FROM (Select department_id FROM hr.employees except Select department_id FROM hr.departments UNION ALL Select department_id FROM hr.departments except Select department_id FROM hr.employees) as t",
+      "expected": 0
+    }
+  ]
+}

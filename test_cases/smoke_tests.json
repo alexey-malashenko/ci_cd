@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "SMOKE TEST. Countries table. Check count.",
+      "query": "SELECT count(*) FROM hr.countries",
+      "expected": 25
+    },
+    {
+      "name": "SMOKE TEST. Departments table. Check count.",
+      "query": "SELECT count(*) FROM TRN.hr.departments",
+      "expected": 11
+    },
+    {
+      "name": "SMOKE TEST. Dependents table. Check count.",
+      "query": "SELECT count(*) FROM TRN.hr.dependents",
+      "expected": 30
+    },
+    {
+      "name": "SMOKE TEST. Employees table. Check count.",
+      "query": "SELECT count(*) FROM TRN.hr.employees",
+      "expected": 40
+    },
+    {
+      "name": "SMOKE TEST. Jobs table. Check count.",
+      "query": "SELECT count(*) FROM TRN.hr.jobs",
+      "expected": 19
+    },
+    {
+      "name": "SMOKE TEST. Locations table. Check count.",
+      "query": "SELECT count(*) FROM TRN.hr.locations",
+      "expected": 7
+    },
+    {
+      "name": "SMOKE TEST. Regions table. Check count.",
+      "query": "SELECT count(*) FROM TRN.hr.regions",
+      "expected": 4
+    }
+  ]
+}

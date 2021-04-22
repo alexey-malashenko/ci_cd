@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Countries. Country_id. Check PK. Duplicates",
+      "query": "SELECT ISNULL(SUM(count_dubl), 0) FROM (SELECT count(*) AS count_dubl FROM hr.countries GROUP BY country_id HAVING count(*) > 1) AS prep",
+      "expected": 0
+    },
+    {
+      "name": "Countries. Country_id. Check PK. Nulls",
+      "query": "SELECT SUM(CASE WHEN country_id IS NULL THEN 1 ELSE 0 END) FROM hr.countries",
+      "expected": 0
+    },
+    {
+      "name": "Countries. Country_name. Max Length",
+      "query": "select max(len(country_name)) From hr.countries",
+      "expected": 24
+    },
+    {
+      "name": "Countries. Country_name. Min Length",
+      "query": "select min(len(country_name)) From hr.countries",
+      "expected": 5
+    }
+  ]
+}
