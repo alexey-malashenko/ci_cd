@@ -1,0 +1,36 @@
+2021-04-15 02:48:33.826841 PASSED. Test case "Employees. Check doublicates". Result is: 0. Expected result is: 0
+2021-04-15 02:48:33.826841 PASSED. Test case "Employees. Employee_id - check BR". Result is: 0. Expected result is: 0
+2021-04-15 02:48:33.826841 PASSED. Test case "Employees. Employee_id check PK - Nulls". Result is: 0. Expected result is: 0
+2021-04-15 02:48:33.829834 PASSED. Test case "Employees. Salary - check BR - Min Salary". Result is: 2500.00. Expected result is: 2500
+2021-04-15 02:48:33.829834 PASSED. Test case "Employees. Salary - check BR - Max Salary". Result is: 24000.00. Expected result is: 24000
+2021-04-15 02:48:33.829834 PASSED. Test case "Employees.  job_id check FK". Result is: 0. Expected result is: 0
+2021-04-15 02:48:33.829834 PASSED. Test case "Employees. MINUS hr.department". Result is: 0. Expected result is: 0
+2021-04-15 02:48:33.830802 PASSED. Test case "Countries. Country_id. Check PK. Duplicates". Result is: 0. Expected result is: 0
+2021-04-15 02:48:33.830802 PASSED. Test case "Countries. Country_id. Check PK. Nulls". Result is: 0. Expected result is: 0
+2021-04-15 02:48:33.830802 PASSED. Test case "Countries. Country_name. Max Length". Result is: 24. Expected result is: 24
+2021-04-15 02:48:33.831799 PASSED. Test case "Countries. Country_name. Min Length". Result is: 5. Expected result is: 5
+2021-04-15 02:48:33.831799 PASSED. Test case "SMOKE TEST. Countries table. Check count.". Result is: 25. Expected result is: 25
+2021-04-15 02:48:33.831799 PASSED. Test case "SMOKE TEST. Departments table. Check count.". Result is: 11. Expected result is: 11
+2021-04-15 02:48:33.831799 PASSED. Test case "SMOKE TEST. Dependents table. Check count.". Result is: 30. Expected result is: 30
+2021-04-15 02:48:33.832797 PASSED. Test case "SMOKE TEST. Employees table. Check count.". Result is: 40. Expected result is: 40
+2021-04-15 02:48:33.833184 PASSED. Test case "SMOKE TEST. Jobs table. Check count.". Result is: 19. Expected result is: 19
+2021-04-15 02:48:33.833376 PASSED. Test case "SMOKE TEST. Locations table. Check count.". Result is: 7. Expected result is: 7
+2021-04-15 02:48:33.833568 PASSED. Test case "SMOKE TEST. Regions table. Check count.". Result is: 4. Expected result is: 4
+2021-04-22 23:20:26.286294 PASSED. Test case "Employees. Check doublicates". Result is: 0. Expected result is: 0
+2021-04-22 23:20:26.289292 PASSED. Test case "Employees. Employee_id - check BR". Result is: 0. Expected result is: 0
+2021-04-22 23:20:26.289292 PASSED. Test case "Employees. Employee_id check PK - Nulls". Result is: 0. Expected result is: 0
+2021-04-22 23:20:26.295420 PASSED. Test case "Employees. Salary - check BR - Min Salary". Result is: 2500.00. Expected result is: 2500
+2021-04-22 23:20:26.296296 PASSED. Test case "Employees. Salary - check BR - Max Salary". Result is: 24000.00. Expected result is: 24000
+2021-04-22 23:20:26.299331 PASSED. Test case "Employees.  job_id check FK". Result is: 0. Expected result is: 0
+2021-04-22 23:20:26.311328 PASSED. Test case "Employees. MINUS hr.department". Result is: 0. Expected result is: 0
+2021-04-22 23:20:26.312329 PASSED. Test case "Countries. Country_id. Check PK. Duplicates". Result is: 0. Expected result is: 0
+2021-04-22 23:20:26.314332 PASSED. Test case "Countries. Country_id. Check PK. Nulls". Result is: 0. Expected result is: 0
+2021-04-22 23:20:26.316329 PASSED. Test case "Countries. Country_name. Max Length". Result is: 24. Expected result is: 24
+2021-04-22 23:20:26.317325 PASSED. Test case "Countries. Country_name. Min Length". Result is: 5. Expected result is: 5
+2021-04-22 23:20:26.319331 PASSED. Test case "SMOKE TEST. Countries table. Check count.". Result is: 25. Expected result is: 25
+2021-04-22 23:20:26.319331 PASSED. Test case "SMOKE TEST. Departments table. Check count.". Result is: 11. Expected result is: 11
+2021-04-22 23:20:26.321294 PASSED. Test case "SMOKE TEST. Dependents table. Check count.". Result is: 30. Expected result is: 30
+2021-04-22 23:20:26.322295 PASSED. Test case "SMOKE TEST. Employees table. Check count.". Result is: 40. Expected result is: 40
+2021-04-22 23:20:26.322295 PASSED. Test case "SMOKE TEST. Jobs table. Check count.". Result is: 19. Expected result is: 19
+2021-04-22 23:20:26.323326 PASSED. Test case "SMOKE TEST. Locations table. Check count.". Result is: 7. Expected result is: 7
+2021-04-22 23:20:26.324326 PASSED. Test case "SMOKE TEST. Regions table. Check count.". Result is: 4. Expected result is: 4

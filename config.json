@@ -1,0 +1,7 @@
+{
+  "conf": {
+    "database_settings": "Driver={SQL Server};Server=EPBYMINW5875\\SQLEXPRESS;Database=TRN;Trusted_Connection=yes;",
+    "test_cases_folder": "test_cases",
+    "test_result_folder": "test_results"
+  }
+}
