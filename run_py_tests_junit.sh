@@ -1,1 +1,1 @@
-python tests_unit.py
+python tests_junit.py
