@@ -1,6 +1,6 @@
 import os
 import json
-from jsonschema import validate
+# from jsonschema import validate
 import glob
 
 
@@ -21,64 +21,65 @@ class TestProcessor:
             exit()
 
     def validate_test_file_json(self):
-        # if exists
-        test_data_files = self.check_test_folder()
-        if not test_data_files:
-            self.logger.test_file_json('empty', '')
-            self.logger.print_message()
-            exit()
-
-        for f in test_data_files:
-            try:
-                fl = open(f, 'r')
-                json.load(fl)
-            except (ValueError, Exception):
-                self.logger.test_file_json('wrong json', f)
-                self.logger.print_message()
-                exit()
-            else:
-                self.logger.test_file_json('good json', f)
-
-        schema = {
-            "$schema": "http://json-schema.org/draft-04/schema#",
-            "type": "object",
-            "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "query": {
-                    "type": "string"
-                },
-                "expected": {
-                    "type": "integer"
-                }
-            },
-            "required": [
-                "name",
-                "query",
-                "expected"
-            ]
-        }
-
-        for f in test_data_files:
-            try:
-                fl = open(f, 'r')
-                json_file = json.load(fl)
-                for ar in json_file:
-                    if ar == 'tests':
-                        for test_case in json_file[ar]:
-                            validate(instance=test_case,
-                                     schema=schema)
-                    else:
-                        self.logger.test_file_json('wrong str', f)
-                        self.logger.print_message()
-                        exit()
-            except (ValueError, Exception):
-                self.logger.test_file_json('wrong str', f)
-                self.logger.print_message()
-                exit()
-            else:
-                self.logger.test_file_json('good str', f)
+        pass
+        # # if exists
+        # test_data_files = self.check_test_folder()
+        # if not test_data_files:
+        #     self.logger.test_file_json('empty', '')
+        #     self.logger.print_message()
+        #     exit()
+        #
+        # for f in test_data_files:
+        #     try:
+        #         fl = open(f, 'r')
+        #         json.load(fl)
+        #     except (ValueError, Exception):
+        #         self.logger.test_file_json('wrong json', f)
+        #         self.logger.print_message()
+        #         exit()
+        #     else:
+        #         self.logger.test_file_json('good json', f)
+        #
+        # schema = {
+        #     "$schema": "http://json-schema.org/draft-04/schema#",
+        #     "type": "object",
+        #     "properties": {
+        #         "name": {
+        #             "type": "string"
+        #         },
+        #         "query": {
+        #             "type": "string"
+        #         },
+        #         "expected": {
+        #             "type": "integer"
+        #         }
+        #     },
+        #     "required": [
+        #         "name",
+        #         "query",
+        #         "expected"
+        #     ]
+        # }
+        #
+        # for f in test_data_files:
+        #     try:
+        #         fl = open(f, 'r')
+        #         json_file = json.load(fl)
+        #         for ar in json_file:
+        #             if ar == 'tests':
+        #                 for test_case in json_file[ar]:
+        #                     validate(instance=test_case,
+        #                              schema=schema)
+        #             else:
+        #                 self.logger.test_file_json('wrong str', f)
+        #                 self.logger.print_message()
+        #                 exit()
+        #     except (ValueError, Exception):
+        #         self.logger.test_file_json('wrong str', f)
+        #         self.logger.print_message()
+        #         exit()
+        #     else:
+        #         self.logger.test_file_json('good str', f)
 
     def check_test_folder(self):
         test_data_folder = self.config.get_test_data_folder()
