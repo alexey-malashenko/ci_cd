@@ -14,12 +14,13 @@ class Result:
         # log_file.log", "a")
 
     def check_log_file(self):
-        if os.path.exists(self.config.get_test_result_folder()):
-            pass
-        else:
-            print('Wrong path to log file. Please check "test_result_folder" '
-                  'in config.json')
-            exit()
+        pass
+        # if os.path.exists(self.config.get_test_result_folder()):
+        #     pass
+        # else:
+        #     print('Wrong path to log file. Please check "test_result_folder" '
+        #           'in config.json')
+        #     exit()
 
     def check_db_connection(self, res):
         pass
@@ -32,9 +33,10 @@ class Result:
         #                         f'"database_settings" in config.json\n')
 
     def print_message(self):
-        print(f'Error. Please, check log by path: "'
-              f'{os.path.join(self.config.get_test_data_folder())}"')
-        self.close_all_files()
+        pass
+        # print(f'Error. Please, check log by path: "'
+        #       f'{os.path.join(self.config.get_test_data_folder())}"')
+        # self.close_all_files()
 
     def check_test_case(self, res):
         pass
