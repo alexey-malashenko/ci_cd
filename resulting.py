@@ -6,8 +6,8 @@ class Result:
     def __init__(self, config):
         self.config = config
         self.check_log_file()
-        self.result_file = open(f'{config.get_test_result_folder()}\\result.log', 'a')
-        self.log_file = open(f'{config.get_test_result_folder()}\\log_file.log', 'a')
+        self.result_file = open(f"{config.get_test_result_folder()}\\result.log", "a")
+        self.log_file = open(f"{config.get_test_result_folder()}\\log_file.log", "a")
 
     def check_log_file(self):
         if os.path.exists(self.config.get_test_result_folder()):
