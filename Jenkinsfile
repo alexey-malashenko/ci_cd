@@ -36,6 +36,7 @@ pipeline {
             steps {
                 sh 'git config --global user.email "alexey_malashenko@epam.com"'
                 sh 'git config --global user.name "alexey-malashenko"'
+                echo 'Say Hello'
             }
         }
         stage('Развертывание') {
