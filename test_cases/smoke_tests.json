@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "SMOKE TEST. Countries table. Check count.",
-      "query": "SELECT count(*) FROM hr.countries",
+      "query": "SELECT count(*) FROMm hr.countries",
       "expected": 25
     },
     {
